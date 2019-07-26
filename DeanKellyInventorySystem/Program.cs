@@ -25,6 +25,7 @@ namespace DeanKellyInventorySystem
             Inventory.Products.Add(new Product(4, "Green Bicycle", 59.99, 15, 1, 30));
             Inventory.Products.Add(new Product(5, "Black Bicycle", 99.99, 9, 1, 30));
 
+
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new MainScreen());
